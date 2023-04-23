@@ -8,6 +8,7 @@ while True:
     
   resposta = input('Deseja verificar outro número? (s/n)')
   if resposta.lower() == "n":
+     print ('Volte sempre!')
      break
  except ValueError:
    print ('Digite um numero inteiro por favor!')
