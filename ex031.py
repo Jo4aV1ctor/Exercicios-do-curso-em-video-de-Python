@@ -13,4 +13,3 @@ while True:
       break
   except ValueError:
    print ('Digite um numero valido por favor!')
-  
