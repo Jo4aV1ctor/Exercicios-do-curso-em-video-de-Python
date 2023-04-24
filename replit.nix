@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.haskellPackages.hello
     pkgs.python310Full
     pkgs.replitPackages.prybar-python310
     pkgs.replitPackages.stderred
